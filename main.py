@@ -92,8 +92,7 @@ def made_everything(img1, img2):
 
 def image_show(img):
     img.save(FILE)
-    os.system("fim ")
-    img.show()
+    os.system("fbi -d /dev/fb0 -T 5 tmp.jpg")
 
 
 def trifects(img1: str, img2: str, img3: str, rotation_delay=0.01, show_delay=1):
